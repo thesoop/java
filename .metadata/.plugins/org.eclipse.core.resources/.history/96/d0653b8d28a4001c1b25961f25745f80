@@ -1,0 +1,13 @@
+
+public class else05 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=60, b=70,c=80,d=50,e=30;
+		int sum = a+b+c+d+e;
+		float aver = sum/5;
+		System.out.println("나잘난의 평균 점수는"+aver+"입니다");
+
+	}
+
+}

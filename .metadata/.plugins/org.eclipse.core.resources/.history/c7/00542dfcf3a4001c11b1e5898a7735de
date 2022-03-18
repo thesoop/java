@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class ex01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("대문자 알파벳의 숫자 65~90을 입력하세요");
+		Scanner sc=new Scanner(System.in);
+		int value = sc.nextInt();
+		char value2 = (char)value;
+		char value3 = (char)(value+32);
+		System.out.println(value2+"의 소문자는 "+value3+"입니다");
+	}
+
+}

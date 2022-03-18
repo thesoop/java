@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class ex01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		int value = sc.nextInt();
+		char value2 = (char)value;
+		char value3 = (char)(value+32);
+		System.out.println(value3);
+	}
+
+}
